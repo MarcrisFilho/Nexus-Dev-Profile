@@ -30,6 +30,17 @@ A PLOUTY é uma plataforma criada para conectar pequenos produtores agrícolas a
 **Acessar projeto:** [plouty-connecting.vercel.app](https://plouty-connecting.vercel.app/)  
 **Repositório:** [Mantovani-a/Plouty-Connecting](https://github.com/Mantovani-a/Plouty-Connecting)
 
+## SENTRYA
+
+<p align="center">
+  <img src="src/assets/logos/sentrya-logo.png" alt="Logo da SENTRYA" width="280" />
+</p>
+
+Sentrya é um projeto em desenvolvimento voltado à identificação de áreas ameaçadas por desastres naturais com apoio de dados e monitoramento por satélite.
+
+- **Site:** [sentrya-rho.vercel.app](https://sentrya-rho.vercel.app/)
+- **GitHub:** [Mantovani-a/ShieldProject](https://github.com/Mantovani-a/ShieldProject)
+
 ## Equipe
 
 ### Davi Rabelo

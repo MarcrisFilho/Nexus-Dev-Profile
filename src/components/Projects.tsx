@@ -35,20 +35,29 @@ export function FeaturedProject({ project }: { project: Project }) {
 function ProjectCard({ project }: { project: Project }) {
   return (
     <Reveal>
-      <article className="secondary-project">
+      <article
+        className="secondary-project"
+        data-project={project.id}
+        aria-labelledby={`project-${project.id}`}
+      >
         <div className="secondary-art">
           <Asset
             folder="logos"
             filename={project.logo}
             alt={`Logo da ${project.name}`}
-            className="plouty-logo"
+            className="secondary-logo"
             fallback={<span className="logo-fallback">{project.name}</span>}
           />
         </div>
         <div className="secondary-copy">
-          <h3>{project.name}</h3>
+          <div className="secondary-heading">
+            <h3 id={`project-${project.id}`}>{project.name}</h3>
+            {project.status && (
+              <span className="project-status">{project.status}</span>
+            )}
+          </div>
           <p>{project.description}</p>
-          <ProjectLinks project={project} />
+          <ProjectLinks project={project} codeLabel="Ver código" />
         </div>
       </article>
     </Reveal>

@@ -82,14 +82,20 @@ export function Asset({
   );
 }
 
-export function ProjectLinks({ project }: { project: Project }) {
+export function ProjectLinks({
+  project,
+  codeLabel = "GitHub",
+}: {
+  project: Project;
+  codeLabel?: string;
+}) {
   return (
     <div className="project-links">
       <External href={project.url} className="button button-primary">
         Acessar projeto <ExternalLink size={16} />
       </External>
-      <External href={project.repository} className="button button-quiet">
-        <Github size={17} /> GitHub
+      <External href={project.github} className="button button-quiet">
+        <Github size={17} /> {codeLabel}
       </External>
     </div>
   );
