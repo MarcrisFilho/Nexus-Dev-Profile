@@ -242,7 +242,7 @@ svg {
   position: relative;
   isolation: isolate;
   padding: 75px 0 72px;
-  overflow: clip;
+  overflow: visible;
 }
 .hero-light {
   position: absolute;
@@ -265,29 +265,31 @@ svg {
   background-size: 64px 64px;
   mask-image: radial-gradient(ellipse at center, black, transparent 68%);
 }
-.hero-content {
+.hero-content.container {
+  width: 100%;
+  max-width: 1080px;
+  padding-inline: clamp(24px, 5vw, 56px);
   text-align: center;
 }
 .hero h1 {
-  font-size: min(13.7vw, 8.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.075em;
+  font-size: min(12vw, 6.75rem);
+  line-height: 1.2;
+  letter-spacing: -0.035em;
   font-weight: 600;
   white-space: nowrap;
+  padding: 0.08em 0.06em;
+  overflow: visible;
 }
 .hero h1 > span:first-child {
-  background: linear-gradient(115deg, #bac3ff, #7d8df1 70%, #9a84d9);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hero h1 > .hero-dot {
-  color: #b6c1ff;
+  color: #a3adff;
 }
 .hero h2 {
   font-size: clamp(1.2rem, 4.8vw, 1.6rem);
   line-height: 1.45;
   letter-spacing: -0.035em;
-  margin-top: 23px;
+  max-width: 32ch;
+  margin: 23px auto 0;
+  text-wrap: balance;
   color: #d6d9e9;
 }
 .hero p {
@@ -664,14 +666,8 @@ svg {
   .hero {
     padding: 92px 0 88px;
   }
-  .hero h1 {
-    font-size: min(12vw, 8.5rem);
-  }
   .hero h2 {
     margin-top: 26px;
-  }
-  .mobile-break {
-    display: none;
   }
   .hero p {
     max-width: 490px;
@@ -743,9 +739,6 @@ svg {
   }
   .hero {
     padding: 105px 0 98px;
-  }
-  .hero h1 {
-    font-size: 8.5rem;
   }
   .hero h2 {
     font-size: 1.75rem;

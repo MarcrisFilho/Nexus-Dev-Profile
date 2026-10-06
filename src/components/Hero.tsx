@@ -7,15 +7,11 @@ export function Hero() {
       <Reveal className="hero-content container">
         <h1 id="hero-title">
           NEXUS <span>DEV</span>
-          <span className="hero-dot">.</span>
         </h1>
-        <h2>
-          Ideias conectadas.
-          <br className="mobile-break" /> Soluções que evoluem.
-        </h2>
+        <h2>Um péssimo nome para programadores incríveis.</h2>
         <p>
-          Um grupo de desenvolvedores criando soluções digitais e experiências
-          modernas.
+          Grupo de desenvolvedores criando projetos digitais com identidade
+          própria.
         </p>
         <a className="button button-primary" href="#hop">
           Ver projetos
