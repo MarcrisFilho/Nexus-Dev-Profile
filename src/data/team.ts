@@ -38,6 +38,15 @@ export const team: Member[] = [
   },
   {
     id: "04",
+    name: "Marcris Filho",
+    initials: "MF",
+    specialty: "Front-end • UI/UX Designer",
+    photo: "marcris-filho.png",
+    github: "https://github.com/MarcrisFilho",
+    linkedin: "https://www.linkedin.com/in/marcris-filho",
+  },
+  {
+    id: "05",
     name: "Nicolas Mantovani",
     initials: "NM",
     specialty: null,
@@ -45,14 +54,5 @@ export const team: Member[] = [
     github: "https://github.com/Mantovani-a",
     linkedin:
       "https://www.linkedin.com/in/n%C3%ADcolas-mantovani-de-araujo-980a93259/",
-  },
-  {
-    id: "05",
-    name: "Marcris Filho",
-    initials: "MF",
-    specialty: "Front-end • UI/UX Designer",
-    photo: "marcris-filho.png",
-    github: "https://github.com/MarcrisFilho",
-    linkedin: "https://www.linkedin.com/in/marcris-filho",
   },
 ];
