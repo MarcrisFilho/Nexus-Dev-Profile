@@ -31,7 +31,7 @@ export const team: Member[] = [
     id: "03",
     name: "Felipe Domingues",
     initials: "FD",
-    specialty: null,
+    specialty: "Full Stack Developer",
     photo: "felipe-domingues.png",
     github: "https://github.com/Barrzyx",
     linkedin: "https://www.linkedin.com/in/felipedominguessousa/",
@@ -49,7 +49,7 @@ export const team: Member[] = [
     id: "05",
     name: "Nicolas Mantovani",
     initials: "NM",
-    specialty: null,
+    specialty: "Tech Lead • Full Stack Developer",
     photo: "nicolas-mantovani.png",
     github: "https://github.com/Mantovani-a",
     linkedin:
