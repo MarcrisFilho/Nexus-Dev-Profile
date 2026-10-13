@@ -16,7 +16,7 @@ export const projects: Project[] = [
     featured: true,
     description:
       "HOP é uma plataforma desenvolvida para o Challenge da OTIS, focada na gestão e acompanhamento de ocorrências, elevadores e equipes de manutenção.",
-    url: "https://hop-escalator.vercel.app/",
+    url: "https://hop-elevator-git-demo-portfolio-nicolas-araujo-s-projects.vercel.app/",
     github: "https://github.com/Mantovani-a/Hop-Elevator",
     logo: "hop-logo.png",
   },
