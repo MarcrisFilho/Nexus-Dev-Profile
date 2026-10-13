@@ -14,7 +14,7 @@ export const team: Member[] = [
     name: "Davi Rabelo",
     initials: "DR",
     specialty: "Technical Writer",
-    photo: "davi-rabelo.",
+    photo: "davi-rabelo.png",
     github: "https://github.com/davirabelo17296-oss",
     linkedin: "https://www.linkedin.com/in/davi-rabelo-1b9285407/",
   },
